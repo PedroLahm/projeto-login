@@ -1,53 +1,63 @@
-@charset "UTF-8";
-
-/*MOBILE FIRST*/
-
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html, body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    height: 100vh;
+    width: 100vw;
 }
 
 body{
-    background-color: #4e307f;
+    background-color: #5f2c82;
 }
 
-section{
-    position: relative;;
-    width: 55vw;
-    margin: auto;
+main{
+    position: relative;
+    
+    height: 100vh;
+    width: 100vw;
 }
 
-section div#imagem img{
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 250px;
+    height: 500px;
+
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.400);
+
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+div#imagem{
     display: block;
 
-    width: 55vw;
-    height: 300px;
+    background-image: url("../imagens/pexels-scottwebb-139198.jpg");
+    background-position: center bottom;
+    background-size: cover;    
+    background-repeat: no-repeat;
+    background-color: #5f2c82;
 
-    border-radius: 15px 15px 0px 0px;
+    height: 200px;
 }
 
-section div#formulario{
-    background-color: white;
+div#formulario{
+    display: block;
 
-    margin: auto;
+    text-align: justify;
     padding: 10px;
-
-    border-radius: 0px 0px 15px 15px;
 }
 
-section div#formulario h1{
+div#formulario h1{
     text-align: center;
-    margin-bottom: 20px;
-}
-
-section div form{
-    margin-top: 15px;
-}
-
-section div form p{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
