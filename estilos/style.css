@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*MOBILE FIRST*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #4e307f;
+}
+
+section{
+    position: relative;;
+    width: 55vw;
+    margin: auto;
+}
+
+section div#imagem img{
+    display: block;
+
+    width: 55vw;
+    height: 300px;
+
+    border-radius: 15px 15px 0px 0px;
+}
+
+section div#formulario{
+    background-color: white;
+
+    margin: auto;
+    padding: 10px;
+
+    border-radius: 0px 0px 15px 15px;
+}
+
+section div#formulario h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section div form{
+    margin-top: 15px;
+}
+
+section div form p{
+    margin-bottom: 10px;
+}

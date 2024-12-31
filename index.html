@@ -5,43 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="estilos/style.css">
-    
+
     <title>Projeto Login</title>
 </head>
 <body>
     <main>
-        <article>
-            <h1>Login</h1>
-            <p>
-                Seja bem vindo(a). Faça o login para acessar a sua conta e poder fazer as configurações no seu ambiente.
-            </p>
+        <section>
 
-            <form action="cadastro.php" method="post">
+            <div id="imagem">
+                <img src="imagens/pexels-scottwebb-139198.jpg" alt="Imagem de exemplo">
+            </div>
 
-                <p>
-                    <label for="iemail">Login</label>
-                    <input type="email" name="email" id="iemail" placeholder="Seu e-mail" required>
+            <div id="formulario">
+
+                <h1>Login</h1>
+                <p id="boasVindas">
+                    Seja bem vindo(a). Faça o login para acessar a sua conta e poder fazer as configurações no seu ambiente.
                 </p>
 
-                <p>
-                    <label for="isenha">Senha</label>
-                    <input type="password" name="senha" id="isenha" placeholder="Sua senha" minlength="5" max="16" required>
-                </p>
+                <form action="cadastro.php" method="post">
+                    <p>
+                        <label for="iemail">Login</label>
+                        <input type="email" name="email" id="iemail" placeholder="Seu e-mail" required>
+                    </p>
 
-                <p>
-                    <input type="button" value="Entrar">
-                </p>
+                    <p>
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" minlength="5" max="16" required>
+                    </p>
+                    
+                    <p>
+                        <input type="button" value="Entrar">
+                    </p>
+                    
+                    <p>
+                        <input type="button" value="Esqueci a senha">
+                    </p>
+                </form>
+            </div>
 
-                <p>
-                    <input type="button" value="Esqueci a senha">
-                </p>
-
-            </form>
-        </article>
-
-        <aside>
-            <img src="" alt="">
-        </aside>
+        </section>
     </main>
 </body>
 </html>
