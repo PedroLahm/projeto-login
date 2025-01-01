@@ -33,7 +33,7 @@ section#login{
     transform: translate(-50%, -50%);
 
     width: 250px;
-    height: 500px;
+    height: 520px;
 
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.400);
@@ -59,9 +59,83 @@ div#formulario{
 
     text-align: justify;
     padding: 10px;
+
+    line-height: 20px;
 }
 
 div#formulario h1{
     text-align: center;
+    margin-bottom: 18px;
+}
+
+div#formulario form{
+    margin-top: 18px;
+}
+
+div#formulario form p.acessos{
+    position: relative;
+    
+    background-color: #5f2c82;
+
     margin-bottom: 5px;
+
+    border-radius: 5px;
+}
+
+div#formulario form p.acessos input{
+    background-color: #92d0c7;
+
+    width: 195px;
+    padding: 8px;
+
+    margin-left: 35px;
+
+    border-radius: 5px;
+}
+
+div#formulario form p.acessos input:hover{
+    background-color: #e8f2fb;
+}
+
+div#formulario form p.acessos .material-symbols-outlined{
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    
+    color: white;
+}
+
+div#formulario form p.botoes input{
+    width: 230px;
+    padding: 10px;
+    margin-bottom: 5px;
+
+    background-color: #49a09d;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+
+    color: white;
+}
+div#formulario form p.botoes input:hover{
+    background-color: #49a09dc3;
+    cursor: pointer;
+}
+
+div#formulario form p.botoes a{
+    display: block;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+
+    padding: 8px;
+
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+
+    color: #49a09d;
+}
+
+div#formulario form p.botoes a:hover{
+    background-color: #49a09dc3;
+    color: white;
 }

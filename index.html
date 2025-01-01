@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
 
@@ -20,11 +22,31 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>
-                    Seja bem vindo(a). Faça o seu login para acessar sua conta e poder fazer as configurações no seu ambiente.
+                    Seja bem vindo(a). Faça seu login para acessar sua conta e poder fazer configurações no seu ambiente.
                 </p>
 
                 <form action="cadastro.php" method="post">
+                    <p class="acessos">
+                        <label for="femail">
+                            <span class="material-symbols-outlined" aria-hidden="true" title="Usuário">person</span>
+                        </label>
+                        <input type="email" name="email" id="femail" placeholder="Seu e-mail" required>        
+                    </p>
 
+                    <p class="acessos">
+                        <label for="fsenha">
+                            <span class="material-symbols-outlined" aria-hidden="true" title="Senha">key</span>
+                        </label>
+                            <input type="password" name="senha" id="fsenha" placeholder="Sua senha" minlength="5" maxlength="18" required>
+                    </p>
+
+                    <p class="botoes">
+                        <input type="submit" value="Acessar">
+                    </p>
+
+                    <p class="botoes">
+                        <a href="#">Esqueceu a senha?</a>
+                    </p>
                 </form>
             </div>
         </section>
